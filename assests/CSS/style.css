@@ -1,7 +1,16 @@
 *{
 font-family: 'Courier New', Courier, monospace;
+font-size: 18px;
 }
 
 body {
     background-color: beige;
+}
+
+h1{
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 150%;
 }
