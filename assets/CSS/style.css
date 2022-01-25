@@ -3,14 +3,22 @@ font-family: 'Courier New', Courier, monospace;
 font-size: 18px;
 }
 
+header {
+    display: inline;
+}
+
 body {
     background-color: beige;
 }
 
 h1{
     font-size: 200%;
+    font-weight: bolder;
+    margin: 15px 15px 15px 15px;
 }
 
 h2 {
     font-size: 150%;
+    font-weight: bold;
 }
+
