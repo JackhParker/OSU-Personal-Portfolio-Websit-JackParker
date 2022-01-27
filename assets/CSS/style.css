@@ -2,6 +2,7 @@
     --dark-theme: rgb(255, 0, 0);
     --light-theme: #fff;
     --standard-margin: 15px;
+    --standard-font: 19px;
     --large-margin: 25px;
     --very-large-margin: 35px;
     --large-font: 27px;
@@ -59,32 +60,64 @@ body {
 }
 
 
-article#About-Me div{
+#About-Me div{
 margin-left: var(--very-large-margin);
 margin-right: var(--very-large-margin);
 }
 
-article#About-Me {
+#About-Me {
     display: flex;
     font-size: 23px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-right: var(--large-margin);
+    font-family: 'Courier New', Courier, monarticle;
 }
 
-section.main-content{
-    display: flex;
-    flex-direction: column
+.main-content{
+    display: inline-flex;
 }
 
-section.main-content img{
-    display: flex;
-    margin: var(--very-large-margin);
-    
-}
-
-section.main-content li{
-    padding-left: var(--very-large-margin);
+.main-content a{
+    color: var(--light-theme);
     font-size: var(--large-font);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-content a:hover{
+    color: red;
+}
+
+
+.main-content img{
+    margin: var(--very-large-margin);
+    float: left;
+}
+
+.main-content li{
+    padding-left: var(--very-large-margin);
+    margin-top: var(--very-large-margin);
+    font-size: var(--large-font);
+}
+
+.main-content ul p{
+    padding-left: var(--very-large-margin);
+    font-size: var(--standard-font);
+    margin-top: var(--very-large-margin);
+}
+
+.My-info ul{
+    display: flex;
+    color: var(--light-theme);
+    justify-content: space-between;
+    padding: var(--very-large-margin);
+}
+
+.My-info a{
+    color: var(--light-theme);
+    font-size: var(--large-font);
+}
+
+.My-info a:hover{
+    color: red;
 }
 
 footer{
